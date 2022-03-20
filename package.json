@@ -6,7 +6,8 @@
   "scripts": {
     "test": "npx cypress open",
     "check-lint": "eslint cypress/integration/**",
-    "fix-lint": "eslint cypress/integration/** --fix"
+    "fix-lint": "eslint cypress/integration/** --fix",
+    "prepare": "husky install"
   },
   "keywords": [
     "cypress",
@@ -21,6 +22,7 @@
     "eslint": "^8.11.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-cypress": "^2.12.1",
-    "eslint-plugin-import": "^2.25.4"
+    "eslint-plugin-import": "^2.25.4",
+    "husky": "7.0.4"
   }
 }
