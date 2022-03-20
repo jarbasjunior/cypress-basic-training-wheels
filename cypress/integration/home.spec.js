@@ -1,6 +1,6 @@
 describe('Ao visitar home, página deve:', () => {
   before(() => {
-    cy.visit('https://training-wheels-qaninja.herokuapp.com');
+    cy.visit('/');
   });
 
   it('Exibir o título Training Wheels | QAninja', () => {

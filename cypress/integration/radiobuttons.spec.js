@@ -7,7 +7,7 @@ describe('Ao marcar radio button, deve:', () => {
   const unselectMovies = movies.filter((movie) => movie !== chosenMovie);
 
   before(() => {
-    cy.visit('https://training-wheels-qaninja.herokuapp.com/radios');
+    cy.visit('/radios');
   });
 
   it('Marcar apenas radio button do filme selecionado', () => {

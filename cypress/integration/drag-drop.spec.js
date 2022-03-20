@@ -1,6 +1,6 @@
 describe('Drag and Drops', () => {
   before(() => {
-    cy.visit('https://training-wheels-qaninja.herokuapp.com/drag_and_drop');
+    cy.visit('/drag_and_drop');
   });
 
   it('Deve arrastar a imagem do Cypress da coluna Ruby para a do Node', () => {

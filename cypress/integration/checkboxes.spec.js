@@ -8,7 +8,7 @@ describe('Quando selecionar 5 filmes, deve:', () => {
   const unselectMovies = movies.filter((movie) => !chosenMovies.includes(movie));
 
   before(() => {
-    cy.visit('https://training-wheels-qaninja.herokuapp.com/checkboxes');
+    cy.visit('/checkboxes');
   });
 
   it('Marcar os 5 filmes escolhidos', () => {
