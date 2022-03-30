@@ -18,6 +18,7 @@
 - [Pacotes utilizados](#pacotes-utilizados)
 
   - [Cypress](#cypress)
+  - [Cypress Real Events](#cypress-real-events)
   - [eslint](#eslint)
   - [Eslint plugin](#eslint-plugin)
   - [Husky](#husky)
@@ -46,6 +47,12 @@
   * ### Instalação do Cypress ⚙️
 
     - Execute o comando `yarn add cypress --save-dev` para instalar as dependências do **Cypress** na versão mais recente.
+
+* <a id="cypress-real-events"/> [Cypress Real Events](https://github.com/dmtrKovalenko/cypress-real-events) - Como solução alternativa para utilização de mouse hover.
+
+  * ### Instalação do Cypress Real Events ⚙️
+
+    - Execute o comando `yarn add cypress-real-events` para instalar as dependências do **Cypress Real Events** na versão mais recente.
 
   * ### Instalação eslint ⚙️
 
