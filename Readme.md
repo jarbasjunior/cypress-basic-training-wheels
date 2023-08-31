@@ -94,7 +94,7 @@
       - Exeutar o script `prepare` para ativar o *hook* no *git*
       - Criar o arquivo `pre-commit`, no qual serão gravadas pelo **Husky** as tarefas a serem realizadas antes do *commit*.
         ```
-        npm set-script prepare "husky install" &&
+        npm pkg set scripts.prepare="husky install" &&
         npm run prepare &&
         npx husky add .husky/pre-commit "npm run lint-check" &&
         git add .husky/pre-commit
